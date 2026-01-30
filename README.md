@@ -2,7 +2,7 @@
 
 # Building an Android App to Read Device Sensors
 
-Most modern smartphones come packed with a bunch of sensors like accelerometers, gyroscopes, light sensors, proximity sensors, and more. These little bits of hardware let apps respond to the physical world, opening up all sorts of possibilities. In this post, I’m going to show you how to make a simple Android app that reads data from any sensor on the device and shows it in real-time.
+Most modern smartphones come packed with a bunch of sensors like accelerometers, gyroscopes, temperature sensors, pressure sensors, and more. These little bits of hardware let apps respond to the physical world, opening up all sorts of possibilities. In this post, I’m going to show you how to make a simple Android app that reads data from any sensor on the device and shows it in real-time.
 
 ## What the App Does
 
@@ -10,12 +10,8 @@ Here’s what our sensor detector app will do:
 
 1. Detect and list all available sensors on the device.
 2. Let the user pick a sensor from a dropdown menu.
-3. Display sensor information like name, vendor, type, maximum range, resolution, and power usage.
+3. Display sensor information like name, vendor, type, and values.
 4. Show live readings from the selected sensor, including timestamp and accuracy.
-
-This is a straightforward project for beginners who want to learn **how Android handles hardware sensors**, **how to use Spinners and TextViews**, and **how to handle event-driven updates**.
-
----
 
 ## Setting Up the Project
 
