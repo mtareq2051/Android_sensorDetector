@@ -2,7 +2,7 @@
 
 # Building an Android App to Read Device Sensors
 
-Most modern smartphones come packed with a bunch of sensors—accelerometers, gyroscopes, light sensors, proximity sensors, and more. These little bits of hardware let apps respond to the physical world, opening up all sorts of possibilities. In this post, I’m going to show you how to make a simple Android app that reads data from any sensor on the device and shows it in real-time.
+Most modern smartphones come packed with a bunch of sensors like accelerometers, gyroscopes, light sensors, proximity sensors, and more. These little bits of hardware let apps respond to the physical world, opening up all sorts of possibilities. In this post, I’m going to show you how to make a simple Android app that reads data from any sensor on the device and shows it in real-time.
 
 ## What the App Does
 
